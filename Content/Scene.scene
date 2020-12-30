@@ -273,6 +273,13 @@
 			"TypeName": "FlaxEngine.RigidBody",
 			"ParentID": "74a68a984824b4510d12589f199ad68f",
 			"Name": "Fighter",
+			"Transform": {
+				"Translation": {
+					"X": -988.3286743164063,
+					"Y": 0.0,
+					"Z": 0.0
+				}
+			},
 			"StaticFlags": 0,
 			"LinearDamping": 1.0,
 			"AngularDamping": 7.0,
@@ -307,16 +314,23 @@
 			"TypeName": "FlaxEngine.StaticModel",
 			"ParentID": "46231efa4464a7b6a97b15a356efe484",
 			"Name": "StaticModel",
+			"Transform": {
+				"Orientation": {
+					"X": 0.0,
+					"Y": -0.7071068286895752,
+					"Z": 0.0,
+					"W": 0.7071068286895752
+				},
+				"Scale": {
+					"X": 0.05000000074505806,
+					"Y": 0.05000000074505806,
+					"Z": 0.05000000074505806
+				}
+			},
 			"StaticFlags": 0,
-			"Model": "93f2dd824252e7fc509eaabd97205cb7",
+			"Model": "c84e0ce049ea0c92691f0299743da639",
 			"Buffer": {
 				"Entries": [
-					{
-						"Material": "00000000000000000000000000000000",
-						"ShadowsMode": 3,
-						"Visible": true,
-						"ReceiveDecals": true
-					},
 					{
 						"Material": "00000000000000000000000000000000",
 						"ShadowsMode": 3,

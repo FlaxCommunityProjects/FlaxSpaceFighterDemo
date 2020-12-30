@@ -195,18 +195,19 @@
     <Compile Include="Game\ExitOnEsc.cs" />
     <Compile Include="Game\FighterCamera.cs" />
     <Compile Include="Game\FreeCamera.cs" />
-    <Compile Visible="false" Include ="C:\Workspace\SpaceFighter\Cache/Intermediate\GameEditorTarget\Windows\x64\Debug\Game\Game.Bindings.Gen.cs" />
-    <Compile Visible="false" Include ="C:\Workspace\SpaceFighter\Cache/Intermediate\GameEditorTarget\Windows\Win32\Debug\Game\Game.Bindings.Gen.cs" />
-    <Compile Visible="false" Include ="C:\Workspace\SpaceFighter\Cache/Intermediate\GameEditorTarget\Windows\x64\Development\Game\Game.Bindings.Gen.cs" />
-    <Compile Visible="false" Include ="C:\Workspace\SpaceFighter\Cache/Intermediate\GameEditorTarget\Windows\Win32\Development\Game\Game.Bindings.Gen.cs" />
-    <Compile Visible="false" Include ="C:\Workspace\SpaceFighter\Cache/Intermediate\GameEditorTarget\Windows\x64\Release\Game\Game.Bindings.Gen.cs" />
-    <Compile Visible="false" Include ="C:\Workspace\SpaceFighter\Cache/Intermediate\GameEditorTarget\Windows\Win32\Release\Game\Game.Bindings.Gen.cs" />
-    <Compile Visible="false" Include ="C:\Workspace\SpaceFighter\Cache/Intermediate\GameTarget\Windows\x64\Debug\Game\Game.Bindings.Gen.cs" />
-    <Compile Visible="false" Include ="C:\Workspace\SpaceFighter\Cache/Intermediate\GameTarget\Windows\Win32\Debug\Game\Game.Bindings.Gen.cs" />
-    <Compile Visible="false" Include ="C:\Workspace\SpaceFighter\Cache/Intermediate\GameTarget\Windows\x64\Development\Game\Game.Bindings.Gen.cs" />
-    <Compile Visible="false" Include ="C:\Workspace\SpaceFighter\Cache/Intermediate\GameTarget\Windows\Win32\Development\Game\Game.Bindings.Gen.cs" />
-    <Compile Visible="false" Include ="C:\Workspace\SpaceFighter\Cache/Intermediate\GameTarget\Windows\x64\Release\Game\Game.Bindings.Gen.cs" />
-    <Compile Visible="false" Include ="C:\Workspace\SpaceFighter\Cache/Intermediate\GameTarget\Windows\Win32\Release\Game\Game.Bindings.Gen.cs" />
+    <Compile Include="Game\LaserResizer.cs" />
+    <Compile Visible="false" Include ="C:\Workspace\FlaxSpaceFighterDemo\Cache/Intermediate\GameEditorTarget\Windows\x64\Debug\Game\Game.Bindings.Gen.cs" />
+    <Compile Visible="false" Include ="C:\Workspace\FlaxSpaceFighterDemo\Cache/Intermediate\GameEditorTarget\Windows\Win32\Debug\Game\Game.Bindings.Gen.cs" />
+    <Compile Visible="false" Include ="C:\Workspace\FlaxSpaceFighterDemo\Cache/Intermediate\GameEditorTarget\Windows\x64\Development\Game\Game.Bindings.Gen.cs" />
+    <Compile Visible="false" Include ="C:\Workspace\FlaxSpaceFighterDemo\Cache/Intermediate\GameEditorTarget\Windows\Win32\Development\Game\Game.Bindings.Gen.cs" />
+    <Compile Visible="false" Include ="C:\Workspace\FlaxSpaceFighterDemo\Cache/Intermediate\GameEditorTarget\Windows\x64\Release\Game\Game.Bindings.Gen.cs" />
+    <Compile Visible="false" Include ="C:\Workspace\FlaxSpaceFighterDemo\Cache/Intermediate\GameEditorTarget\Windows\Win32\Release\Game\Game.Bindings.Gen.cs" />
+    <Compile Visible="false" Include ="C:\Workspace\FlaxSpaceFighterDemo\Cache/Intermediate\GameTarget\Windows\x64\Debug\Game\Game.Bindings.Gen.cs" />
+    <Compile Visible="false" Include ="C:\Workspace\FlaxSpaceFighterDemo\Cache/Intermediate\GameTarget\Windows\Win32\Debug\Game\Game.Bindings.Gen.cs" />
+    <Compile Visible="false" Include ="C:\Workspace\FlaxSpaceFighterDemo\Cache/Intermediate\GameTarget\Windows\x64\Development\Game\Game.Bindings.Gen.cs" />
+    <Compile Visible="false" Include ="C:\Workspace\FlaxSpaceFighterDemo\Cache/Intermediate\GameTarget\Windows\Win32\Development\Game\Game.Bindings.Gen.cs" />
+    <Compile Visible="false" Include ="C:\Workspace\FlaxSpaceFighterDemo\Cache/Intermediate\GameTarget\Windows\x64\Release\Game\Game.Bindings.Gen.cs" />
+    <Compile Visible="false" Include ="C:\Workspace\FlaxSpaceFighterDemo\Cache/Intermediate\GameTarget\Windows\Win32\Release\Game\Game.Bindings.Gen.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
