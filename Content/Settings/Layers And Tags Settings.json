@@ -1,0 +1,47 @@
+{
+	"ID": "bb6fbecf458db0ecffa5e2a5155b2b4f",
+	"TypeName": "FlaxEditor.Content.Settings.LayersAndTagsSettings",
+	"EngineBuild": 6214,
+	"Data": {
+	"Tags": [
+		"Player",
+		"Bullet",
+		"Ships",
+		"Asteroids"
+	],
+	"Layers": [
+		"Default",
+		"Player",
+		"Bullets",
+		"Ships",
+		"Asteroids",
+		null,
+		null,
+		null,
+		null,
+		null,
+		null,
+		null,
+		null,
+		null,
+		null,
+		null,
+		null,
+		null,
+		null,
+		null,
+		null,
+		null,
+		null,
+		null,
+		null,
+		null,
+		null,
+		null,
+		null,
+		null,
+		null,
+		null
+	]
+}
+}

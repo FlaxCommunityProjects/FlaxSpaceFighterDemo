@@ -1,0 +1,454 @@
+{
+	"ID": "74a68a984824b4510d12589f199ad68f",
+	"TypeName": "FlaxEngine.SceneAsset",
+	"EngineBuild": 6214,
+	"Data": [
+		{
+			"ID": "74a68a984824b4510d12589f199ad68f",
+			"TypeName": "FlaxEngine.Scene",
+			"Lightmaps": [
+				{
+					"Lightmap0": "520522344858c273e9e7d9a9131555df",
+					"Lightmap1": "bf2bef904ca9b75147d352a1b5089ace",
+					"Lightmap2": "69b94adb41aca213ce537d91d53dc89d"
+				}
+			],
+			"LightmapSettings": {
+				"IndirectLightingIntensity": 1.0,
+				"GlobalObjectsScale": 1.0,
+				"ChartsPadding": 3,
+				"AtlasSize": 1024,
+				"BounceCount": 1,
+				"CompressLightmaps": true,
+				"UseGeometryWithNoMaterials": true,
+				"Quality": 100
+			}
+		},
+		{
+			"ID": "6ff0581d474c84230b3d0fa9f17e0972",
+			"TypeName": "ExitOnEsc",
+			"ParentID": "74a68a984824b4510d12589f199ad68f",
+			"V": {}
+		},
+		{
+			"ID": "28553d634087c67c711ebd96080482aa",
+			"TypeName": "FlaxEngine.EmptyActor",
+			"ParentID": "74a68a984824b4510d12589f199ad68f",
+			"Name": "Visuals"
+		},
+		{
+			"ID": "bc81376747666609b0974580a21519a1",
+			"TypeName": "FlaxEngine.Sky",
+			"ParentID": "28553d634087c67c711ebd96080482aa",
+			"Name": "Sky",
+			"Transform": {
+				"Translation": {
+					"X": -69.65292358398438,
+					"Y": 75.30659484863281,
+					"Z": -14.423166275024414
+				}
+			},
+			"Sun": "deecf0894777293a4f478dadacf2a6f8"
+		},
+		{
+			"ID": "da5e1c454a56377517d41686ebb0348f",
+			"TypeName": "FlaxEngine.EnvironmentProbe",
+			"ParentID": "28553d634087c67c711ebd96080482aa",
+			"Name": "Environment Probe",
+			"Transform": {
+				"Translation": {
+					"X": 0.0,
+					"Y": 108.5870361328125,
+					"Z": 0.0
+				}
+			},
+			"IsCustomProbe": true
+		},
+		{
+			"ID": "deecf0894777293a4f478dadacf2a6f8",
+			"TypeName": "FlaxEngine.DirectionalLight",
+			"ParentID": "28553d634087c67c711ebd96080482aa",
+			"Name": "Directional Light",
+			"Transform": {
+				"Translation": {
+					"X": -1.6893305778503419,
+					"Y": 90.0248794555664,
+					"Z": 0.0
+				},
+				"Orientation": {
+					"X": 0.5176515579223633,
+					"Y": 0.0833025798201561,
+					"Z": 0.06534233689308167,
+					"W": 0.8490158915519714
+				}
+			},
+			"Color": {
+				"R": 1.0,
+				"G": 0.9606999754905701,
+				"B": 0.8050000071525574,
+				"A": 1.0
+			},
+			"MinRoughness": 0.0,
+			"ShadowsDistance": 2000.0,
+			"ShadowsFadeDistance": 50.0,
+			"ShadowsDepthBias": 0.0010000000474974514
+		},
+		{
+			"ID": "eb18e84d41670d6314174b89a1d5ffea",
+			"TypeName": "FlaxEngine.SkyLight",
+			"ParentID": "28553d634087c67c711ebd96080482aa",
+			"Name": "SkyLight",
+			"Transform": {
+				"Translation": {
+					"X": 0.0,
+					"Y": 150.0,
+					"Z": 0.0
+				}
+			},
+			"BakedProbe": "1c0e10484ff57d402275289550564b9f",
+			"Mode": 0
+		},
+		{
+			"ID": "ffc404e94a05c2b7d3cf8483f3b1df1e",
+			"TypeName": "FlaxEngine.Skybox",
+			"ParentID": "28553d634087c67c711ebd96080482aa",
+			"Name": "Skybox",
+			"Color": {
+				"R": 1.0010000467300416,
+				"G": 1.0010000467300416,
+				"B": 1.0010000467300416,
+				"A": 1.0
+			},
+			"Exposure": 1.5,
+			"CubeTexture": "4770bedd456d9ece816bbd842aad7e42"
+		},
+		{
+			"ID": "155353094a192c63da5acdbaa59fd1fb",
+			"TypeName": "FlaxEngine.PostFxVolume",
+			"ParentID": "28553d634087c67c711ebd96080482aa",
+			"Name": "PostFxVolume",
+			"IsBounded": false,
+			"Settings": {
+				"AO": {
+					"OverrideFlags": 1
+				},
+				"Bloom": {
+					"OverrideFlags": 1
+				},
+				"ToneMapping": {},
+				"ColorGrading": {},
+				"EyeAdaptation": {
+					"OverrideFlags": 1,
+					"Mode": 0
+				},
+				"CameraArtifacts": {},
+				"LensFlares": {},
+				"DepthOfField": {
+					"OverrideFlags": 1
+				},
+				"MotionBlur": {
+					"OverrideFlags": 1,
+					"Enabled": false
+				},
+				"SSR": {},
+				"AA": {},
+				"PostFxMaterials": {}
+			}
+		},
+		{
+			"ID": "69e70f9847f448b475e6ed8a08436740",
+			"TypeName": "FlaxEngine.StaticModel",
+			"ParentID": "28553d634087c67c711ebd96080482aa",
+			"Name": "StaticModel",
+			"Transform": {
+				"Translation": {
+					"X": -5987.44970703125,
+					"Y": 9175.0966796875,
+					"Z": -8146.69677734375
+				},
+				"Scale": {
+					"X": 10.0,
+					"Y": 10.0,
+					"Z": 10.0
+				}
+			},
+			"Model": "dd86c4724bf734c4959d23b3c74faa05",
+			"Buffer": {
+				"Entries": [
+					{
+						"Material": "2cc8afab4c7a2c32b5c31aaa97891b5f",
+						"ShadowsMode": 3,
+						"Visible": true,
+						"ReceiveDecals": true
+					}
+				]
+			}
+		},
+		{
+			"ID": "0cc5c99f4762a830e4f167b2999cbcf1",
+			"TypeName": "FlaxEngine.StaticModel",
+			"ParentID": "74a68a984824b4510d12589f199ad68f",
+			"Name": "Asteroids5",
+			"Transform": {
+				"Translation": {
+					"X": 4134.18359375,
+					"Y": -101.55374145507813,
+					"Z": -1737.9420166015626
+				},
+				"Orientation": {
+					"X": 0.8652223348617554,
+					"Y": 0.023980213329195977,
+					"Z": 0.293503999710083,
+					"W": 0.4057962894439697
+				},
+				"Scale": {
+					"X": 3.0,
+					"Y": 3.0,
+					"Z": 3.0
+				}
+			},
+			"Model": "d81651eb48d264659c9de7b68591f02f",
+			"Buffer": {
+				"Entries": [
+					{
+						"Material": "00000000000000000000000000000000",
+						"ShadowsMode": 3,
+						"Visible": true,
+						"ReceiveDecals": true
+					}
+				]
+			}
+		},
+		{
+			"ID": "84ea3308436c53b37ac96ba50d949ab8",
+			"TypeName": "FlaxEngine.MeshCollider",
+			"ParentID": "0cc5c99f4762a830e4f167b2999cbcf1",
+			"Name": "MeshCollider",
+			"Tag": "Asteroids",
+			"Material": "00fbf3144f3f31ddf110f49d4dcfad50",
+			"CollisionData": "d300c5bf44fbafbf84a613aaa160c25a"
+		},
+		{
+			"ID": "5746eee540244e3edcda879072077013",
+			"TypeName": "FlaxEngine.StaticModel",
+			"ParentID": "74a68a984824b4510d12589f199ad68f",
+			"Name": "Asteroids2",
+			"Transform": {
+				"Translation": {
+					"X": 3507.10986328125,
+					"Y": -101.55374145507813,
+					"Z": 384.3944396972656
+				},
+				"Scale": {
+					"X": 3.0,
+					"Y": 3.0,
+					"Z": 3.0
+				}
+			},
+			"Model": "d81651eb48d264659c9de7b68591f02f",
+			"Buffer": {
+				"Entries": [
+					{
+						"Material": "00000000000000000000000000000000",
+						"ShadowsMode": 3,
+						"Visible": true,
+						"ReceiveDecals": true
+					}
+				]
+			}
+		},
+		{
+			"ID": "8fb838d241833fcd2ecff7b29557292b",
+			"TypeName": "FlaxEngine.MeshCollider",
+			"ParentID": "5746eee540244e3edcda879072077013",
+			"Name": "MeshCollider",
+			"Tag": "Asteroids",
+			"Material": "00fbf3144f3f31ddf110f49d4dcfad50",
+			"CollisionData": "d300c5bf44fbafbf84a613aaa160c25a"
+		},
+		{
+			"ID": "46231efa4464a7b6a97b15a356efe484",
+			"TypeName": "FlaxEngine.RigidBody",
+			"ParentID": "74a68a984824b4510d12589f199ad68f",
+			"Name": "Fighter",
+			"StaticFlags": 0,
+			"LinearDamping": 1.0,
+			"AngularDamping": 7.0,
+			"UseCCD": true,
+			"EnableGravity": false
+		},
+		{
+			"ID": "53e585bd4c50a9243d274ea5fc5a76f7",
+			"TypeName": "Game.FighterCamera",
+			"ParentID": "46231efa4464a7b6a97b15a356efe484",
+			"V": {
+	"Camera": "b0d72c3746caebca055e1f921ca21c7c",
+	"PMaterial": "ec32a2c94a821890b5c463a177e738d4"
+}
+		},
+		{
+			"ID": "f60f8de1430b4a2f3b6dd69ceda1ab3c",
+			"TypeName": "FlaxEngine.EmptyActor",
+			"ParentID": "46231efa4464a7b6a97b15a356efe484",
+			"Name": "CamTarget",
+			"Transform": {
+				"Translation": {
+					"X": -190.43505859375,
+					"Y": 36.90373229980469,
+					"Z": 0.0
+				}
+			},
+			"StaticFlags": 0
+		},
+		{
+			"ID": "351347754dda73a1e9f58fbb760f65d5",
+			"TypeName": "FlaxEngine.StaticModel",
+			"ParentID": "46231efa4464a7b6a97b15a356efe484",
+			"Name": "StaticModel",
+			"StaticFlags": 0,
+			"Model": "93f2dd824252e7fc509eaabd97205cb7",
+			"Buffer": {
+				"Entries": [
+					{
+						"Material": "00000000000000000000000000000000",
+						"ShadowsMode": 3,
+						"Visible": true,
+						"ReceiveDecals": true
+					},
+					{
+						"Material": "00000000000000000000000000000000",
+						"ShadowsMode": 3,
+						"Visible": true,
+						"ReceiveDecals": true
+					},
+					{
+						"Material": "00000000000000000000000000000000",
+						"ShadowsMode": 3,
+						"Visible": true,
+						"ReceiveDecals": true
+					},
+					{
+						"Material": "00000000000000000000000000000000",
+						"ShadowsMode": 3,
+						"Visible": true,
+						"ReceiveDecals": true
+					},
+					{
+						"Material": "00000000000000000000000000000000",
+						"ShadowsMode": 3,
+						"Visible": true,
+						"ReceiveDecals": true
+					}
+				]
+			}
+		},
+		{
+			"ID": "b0d72c3746caebca055e1f921ca21c7c",
+			"TypeName": "FlaxEngine.Camera",
+			"ParentID": "46231efa4464a7b6a97b15a356efe484",
+			"Name": "Camera",
+			"Transform": {
+				"Translation": {
+					"X": -230.0,
+					"Y": 36.0,
+					"Z": 0.0
+				},
+				"Orientation": {
+					"X": 0.0,
+					"Y": 0.7071068286895752,
+					"Z": 0.0,
+					"W": 0.7071068286895752
+				}
+			},
+			"StaticFlags": 0
+		},
+		{
+			"ID": "b16cb3d14068175e57ca8aa01cf53c1a",
+			"TypeName": "FlaxEngine.StaticModel",
+			"ParentID": "74a68a984824b4510d12589f199ad68f",
+			"Name": "Asteroids4",
+			"Transform": {
+				"Translation": {
+					"X": 2214.609619140625,
+					"Y": 1316.97509765625,
+					"Z": -890.567138671875
+				},
+				"Orientation": {
+					"X": -0.6646738648414612,
+					"Y": 0.17889559268951417,
+					"Z": 0.7055512070655823,
+					"W": 0.1685309112071991
+				},
+				"Scale": {
+					"X": 4.0,
+					"Y": 4.0,
+					"Z": 4.0
+				}
+			},
+			"Model": "d81651eb48d264659c9de7b68591f02f",
+			"Buffer": {
+				"Entries": [
+					{
+						"Material": "00000000000000000000000000000000",
+						"ShadowsMode": 3,
+						"Visible": true,
+						"ReceiveDecals": true
+					}
+				]
+			}
+		},
+		{
+			"ID": "62c6ef164e29c0a1cad7f09f158a87a8",
+			"TypeName": "FlaxEngine.MeshCollider",
+			"ParentID": "b16cb3d14068175e57ca8aa01cf53c1a",
+			"Name": "MeshCollider",
+			"Tag": "Asteroids",
+			"Material": "00fbf3144f3f31ddf110f49d4dcfad50",
+			"CollisionData": "d300c5bf44fbafbf84a613aaa160c25a"
+		},
+		{
+			"ID": "426bf05f4180a4a919e4a0adf982ecc7",
+			"TypeName": "FlaxEngine.StaticModel",
+			"ParentID": "74a68a984824b4510d12589f199ad68f",
+			"Name": "Asteroids3",
+			"Transform": {
+				"Translation": {
+					"X": 1808.917724609375,
+					"Y": -101.55374145507813,
+					"Z": -1363.9913330078126
+				},
+				"Orientation": {
+					"X": 0.5924197435379028,
+					"Y": 0.0,
+					"Z": 0.0,
+					"W": 0.8056294918060303
+				},
+				"Scale": {
+					"X": 4.0,
+					"Y": 4.0,
+					"Z": 4.0
+				}
+			},
+			"Model": "d81651eb48d264659c9de7b68591f02f",
+			"Buffer": {
+				"Entries": [
+					{
+						"Material": "00000000000000000000000000000000",
+						"ShadowsMode": 3,
+						"Visible": true,
+						"ReceiveDecals": true
+					}
+				]
+			}
+		},
+		{
+			"ID": "ee555db6480b4e7a986bc88b1bcf1dba",
+			"TypeName": "FlaxEngine.MeshCollider",
+			"ParentID": "426bf05f4180a4a919e4a0adf982ecc7",
+			"Name": "MeshCollider",
+			"Tag": "Asteroids",
+			"Material": "00fbf3144f3f31ddf110f49d4dcfad50",
+			"CollisionData": "d300c5bf44fbafbf84a613aaa160c25a"
+		}
+	]
+}
