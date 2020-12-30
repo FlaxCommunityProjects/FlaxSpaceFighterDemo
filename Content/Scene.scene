@@ -88,6 +88,7 @@
 				"B": 0.8050000071525574,
 				"A": 1.0
 			},
+			"Brightness": 12.0,
 			"MinRoughness": 0.0,
 			"ShadowsDistance": 2000.0,
 			"ShadowsFadeDistance": 50.0,
@@ -105,6 +106,7 @@
 					"Z": 0.0
 				}
 			},
+			"Brightness": 1.2000000476837159,
 			"BakedProbe": "1c0e10484ff57d402275289550564b9f",
 			"Mode": 0
 		},
